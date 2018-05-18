@@ -1,0 +1,15 @@
+<div class="root">
+    <div *ngIf="locWeather" style="display: inline-block">
+        <h1>{{locWeather.name}}, CA</h1>
+        <img src="https://images.pexels.com/photos/360698/pexels-photo-360698.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="washington picture" width="500" height="300">
+    </div>
+
+    <div *ngIf="locWeather" style="display: inline-block; margin-left: 15px; margin-top: 70px; vertical-align: top;">
+        <h3>Humidity: {{locWeather.humidity}}</h3>
+        <h3>Temperature(Average): {{locWeather.average}}</h3>
+        <h3>Temperature(High): {{locWeather.high}}</h3>
+        <h3>Temperature(Low): {{locWeather.low}}</h3>
+        <h3>Status: {{locWeather.status}}</h3>
+    </div>
+
+</div>

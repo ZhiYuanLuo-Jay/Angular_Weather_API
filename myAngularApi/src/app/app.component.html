@@ -1,0 +1,24 @@
+<div class="root">
+  <h1>{{ title }}</h1>
+
+  <!-- <button (click)="onButtonClickParams(5, 'hello')">Click me!</button> -->
+  <a [routerLink]="['burbank']">Burbank</a> |
+  <a [routerLink]="['chicago']">Chicago</a> |
+  <a [routerLink]="['dallas']">Dallas</a> |
+  <a [routerLink]="['sanjose']">San Jose</a> |
+  <a [routerLink]="['seattle']">Seattle</a> |
+  <a [routerLink]="['washington']">Washington</a>
+  <br>
+  <br>
+  <router-outlet></router-outlet> 
+
+  <!-- <app-burbank></app-burbank>
+  <app-chicago></app-chicago>
+  <app-dallas></app-dallas>
+  <app-sanjose></app-sanjose>
+  <app-seattle></app-seattle>
+  <app-washington></app-washington> -->
+
+
+  
+</div>
